@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Glacial-Indifference";
+    src: url(GlacialIndifference-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf) format("opentype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    width: 40%;
+    padding-top: 8rem;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.black-area{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.527);
+    justify-content: center;
+    align-items: center;
+}
+.txt{
+    color: rgb(224, 224, 224);
+    font-family: "Norse-Bold",sans-serif;
+    font-size: 4rem;
+}
+.odin-logo{
+    width: 80px;
+    padding: 6px;
+}
+.main{
+    font-family: "Glacial-Indifference";
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    border: 4px ;
+    padding-left: 1.5rem;
+    padding-right: 4rem;
+    padding-bottom: 2.5rem;
+    padding-top:0.8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main-txt{
+    padding-top: 4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 1.5rem;
+    padding-right: 4rem;
+    padding-bottom: 2.5rem;
+}
+.main-txt > p {
+    padding-bottom: 1rem;
+}
+.txt-2{
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+}
+label{
+    font-size: 0.6rem;
+    display: block;
+    color: rgb(70, 70, 70);
+}
+.form-grp{
+    display: flex;
+    gap: 10px;
+}
+.create-acc{
+    padding-top: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 4rem;
+    padding-bottom: 2.5rem;
+}
+button{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color:rgb(8, 51, 42);
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem 3rem;
+}
+.txt-3{
+    padding-top: 1.5rem;
+}
+.txt-3 > a {
+    text-decoration: none;
+    color: rgb(8, 51, 42);
+    font-weight: 600;
+}
