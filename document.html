@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Sign up</title>
 </head>
 <body>
     <div class="sidebar">
@@ -19,6 +19,7 @@
             <p ><i>You know</i> you want to</p>
         </div>
         <div class="form">
+        <form action="#">
             <p class="txt-2">Let's do this!</p>
             <div class="form-grp">
                 <div class="input-box">
@@ -45,7 +46,7 @@
                     <label for="phone-number">
                        PHONE NUMBER
                     </label>
-                    <input type="text">
+                    <input type="text" minlength="3" maxlength="10" pattern="^\d+$">
                 </div>
             </div>
             <div class="form-grp">
@@ -53,15 +54,16 @@
                     <label for="password">
                        PASSWORD
                     </label>
-                    <input type="password" name="password" id="">
+                    <input type="password" name="password" minlength="6">
                 </div>
                 <div class="input-box">
                     <label for="confirm-pass">
                        CONFIRM PASSWORD
                     </label>
-                    <input type="password">
+                    <input type="password" minlength="6">
                 </div>
             </div>
+        </form>
         </div>
         <div class="create-acc">
             <button>Create Account</button>
